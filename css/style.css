@@ -1,0 +1,442 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family:sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start css */
+.header{
+    background: #fff;
+    padding: 15px 160px;
+}
+.header .nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 11px;
+    color: #000;
+}
+.header .nav-link:hover{
+    color: #5b77f2;
+}
+.header .nav-item .active{
+    color: #5b77f2;
+}
+.header .nav-item .drop-item{
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+.header .nav-item .drop-item:hover{
+    color: #5b77f2;
+}
+.dropdown-menu.show {
+    display: block;
+    border: none;
+}
+/* header css end */
+/* banner start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+    background:#F9F9FF;
+}
+.inner-banner{
+    width: 100%;
+    padding: 75px 0px;
+}
+.banner h4{
+    font-size: 23px;
+    line-height: 35px;
+    color: #000;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-bottom: 45px;
+}
+.banner h1{
+    font-size: 55px;
+    line-height: 65px;
+    color: #000;
+    font-weight: 600;
+    margin-left: 80px;
+    margin-bottom: 45px;
+}
+.banner p{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: #8da18a;
+}
+.banner .btn-primary{
+    margin-left: 80px;
+    padding: 10px 26px;
+    border-radius: 0px;
+    font-size: 16px;
+    color: #f7f7f7;
+    background: #8393FF;
+    letter-spacing: 0.5px;
+    border: 1px solid #8393FF;
+}
+.banner .btn-primary:hover{
+    color:#f7f7f7 ;
+    background: #8393FF;
+    border: 1px solid #8393FF ;
+    box-shadow: 0px 5px 10px 5px #8393ff;
+}
+.banner .btn-primary:focus{
+    color: #5b77f2;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.banner .banner-img{
+    margin-left: -35px;
+}
+/* banner end */
+/* parsonal start */
+.parsonal{
+    width: 100%;
+    padding: 100px 30px;
+}
+.parsonal .parsonal-image{
+
+}
+.parsonal .parsonal-details{
+    padding: 0px 225px 20px 40px;
+}
+.parsonal .parsonal-details h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #947878;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.parsonal .parsonal-details h1{
+    font-size: 41px;
+    line-height: 60px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.parsonal .parsonal-details p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #5f695e;
+    margin-top: 15px;
+}
+.parsonal .parsonal-details .btn-info{
+    padding: 10px 28px;
+    border-radius: 0px;
+    font-size: 19px;
+    color: #f7f7f7;
+    background: #8393FF;
+    letter-spacing: 0.5px;
+    border: 1px solid #8393FF;
+    text-transform: uppercase;
+}
+.parsonal .parsonal-details .btn-info:hover{
+    color:#8393FF; ;
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+}
+/* parsonal end */
+
+/* my-offer start */
+.my-offer{
+    padding: 70px 30px;
+}
+.my-offer .my-title{
+width: 100%;
+text-align: center;
+padding-bottom: 30px;
+}
+.my-offer .my-title h2{
+    font-size: 46px;
+    line-height: 56px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 11px;
+}
+.my-offer .my-title p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #5f695e;
+}
+.my-offer .camera{
+    width: 100%;
+    text-align: center;
+    padding: 0px 30px 10px 30px;
+}
+.my-offer .camera:hover{
+    background: #5b77f2;
+}
+.my-offer .camera a .fa{
+    font-size: 48px;
+    color: #514d4d;
+    margin-bottom: 16px;
+}
+.my-offer .camera h3{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37px;
+}
+.my-offer .camera p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #5f695e;
+}
+/* my offer end */
+
+/* my-work start */
+.my-work{
+    width: 100%;
+    padding: 35px 250px;
+    background: #3c75c9;
+}
+.my-work .counter{
+    text-align: center;
+    background: #a7a5be;
+    padding: 40px 10px;
+}
+.my-work .counter h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: #b34e4e;
+}
+.my-work .counter h3{
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* my-work end */
+.latest{
+    width: 100%;
+    padding: 80px 165px;
+}
+.latest .latest-title{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+.latest .latest-title h3{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.latest .latest-title p{
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #5c4a4a;
+}
+.latest .card{
+    width: 92%;
+    border: none;
+    transition: 1s;
+    margin-bottom: 20px;
+}
+.latest .card:hover{
+    background-color: #8293ff;
+    color: rgb(220, 145, 145);
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+    border-radius: 8px;
+}
+.latest .card-body{
+    text-align: center;
+    margin-top: 15px;
+}
+.latest .card-body h4{
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: 600;
+}
+.latest .card-body p{
+    font-size: 20px;
+    color: #5c4a4a;
+}
+
+/* my-offer end */
+/* choose start */
+.choose{
+    width: 100%;
+    padding: 80px 210px;
+    text-align: center;
+}
+.choose .choose-title{
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: -45px;
+}
+.choose .choose-title h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.choose .choose-title p{
+    font-size: 16px;
+    color: #5c4a4a;
+}
+.choose .pricing{
+    border: 2px solid#d3c4c4;
+}
+.choose .pricing:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+}
+.choose .pricing .price{
+    padding: 35px 0px;
+    border-bottom: 2px solid#d3c4c4;
+}
+.choose .pricing h3{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+.choose .pricing h4{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.choose .pricing .price p{
+    font-size: 17px;
+    color: #5c4a4a;
+}
+.choose .pricing .price-paragraph p{
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 55px;
+    color: #5c4a4a;
+    border-bottom: 2px solid#d3c4c4;
+    margin-bottom: 7px;
+}
+.choose .pricing .buy h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 20px 0px;
+}
+.choose .pricing .buy .btn-primary{
+    padding: 8px 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    margin-bottom: 35px;
+}
+.choose .pricing .buy .btn-primary:hover{
+    background: transparent;
+    color: #3c75c9;
+}
+/* choose end */
+/* footer start */
+.footer{
+    width: 100%;
+    padding: 70px 50px 40px 140px;
+    background: #04091E;
+}
+.footer .about-me{
+
+}
+.footer .about-me h4{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer .about-me p{
+    font-size: 15px;
+    line-height: 23px;
+    color: #af9d9d;
+}
+.footer .about-me .copywrite p{
+    margin-top: 24px;
+}
+.footer .about-me .copywrite p a{
+    font-size: 15px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #af9d9d;
+}
+.footer .about-me .copywrite p a:hover{
+    color: #3c75c9;
+}
+.footer .about-me .copywrite p a:focus{
+    color:#b46060
+}
+.footer .about-me .form-control{
+    border-radius: 0px;
+    padding: 8px 50px;
+    margin-top: 10px;
+}
+.footer .form input::placeholder{
+    color: #af9d9d;
+    font-size: 15px;
+    
+}
+
+.footer .about-me .btn-primary{
+    margin-top: 10px;
+    padding: 9px 15px;
+    border-radius: 0px;
+    margin-left: -10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #8293FF;
+    border: 1px solid #8293FF;
+}
+.footer .about-me .btn-primary:hover{
+    background:transparent;
+    border: 1px solid #fff;
+    color: #af9d9d;
+}
+.footer .about-me .social-icons{
+    list-style: none;
+    margin-left: -52px;
+    margin-top: 20px;
+}
+.footer .about-me .social-icons li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer .about-me .social-icons a{
+    font-size: 20px;
+    color: #fff;
+}
+.footer .about-me .social-icons a:hover{
+    color: #3c75c9;
+}
+.footer .about-me .social-icons a:focus{
+    color: #3c75c9;
+}
+/* footer end */

@@ -1,0 +1,111 @@
+@media (min-width:279px) and (max-width:319px){
+    /* css sode start */
+    
+    /* css sode end */
+    }
+     @media (min-width:320px) and (max-width:480px){
+            /* css sode start */
+                .navbar-toggler {
+                    margin-left: 145px;
+                    margin-top: -42px;
+                }
+                .navbar-brand{
+                    margin-left: -133px;
+                    margin-top: -18px;
+                }
+                .banner {
+                    padding: 0px 0px;
+                }
+                .inner-banner {
+                    padding: 40px 0px;
+                }
+                .banner h4{
+                    margin-bottom: 13px;
+                }
+                .banner h1 {
+                    font-size: 29px;
+                    line-height: 33px;
+                    font-weight: 700;
+                    margin-bottom: 17px;
+                }
+                .banner img {
+                    margin-left: 60px;
+                    max-width: 86%;
+                }
+                .parsonal {
+                    padding: 77px 17px 0px 17px;
+                 }
+                
+                .parsonal .parsonal-image .img-fluid {
+                    max-width: 117%;
+                    height: auto;
+                    margin-left: -20px;
+                    margin-top: -44px;
+                }
+                .parsonal .parsonal-details {
+                    padding: 0px 0px 20px 0px;
+                }
+                .parsonal .parsonal-details h4{
+                    margin-bottom: 0px;
+                }
+                .parsonal .parsonal-details h1 {
+                    font-size: 28px;
+                    line-height: 48px;
+                    font-weight: 700;
+                }
+                .parsonal .parsonal-details p {
+                    font-size: 15px;
+                    margin-top: 0px;
+                    line-height: 25px;
+                }
+                .parsonal .parsonal-details .btn-info{
+                    font-size: 16px;
+                }
+                .my-offer {
+                    padding: 40px 19px;
+                }
+                .my-offer .my-title h2 {
+                    font-size: 30px;
+                    line-height: 40px;
+                    margin-bottom: 8px;
+                }
+                .my-offer .my-title p {
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+                .my-work {
+                    padding: 20px 25px;
+                }
+    
+                .my-work .counter{
+                    margin-bottom: 8px;
+                }
+                .latest {
+                    width: 100%;
+                    padding: 0px;
+                }
+                .latest .latest-title h3 {
+                    font-size: 32px;
+                    line-height: 38px;
+                    margin-top: 20px;
+                }
+                .card-img-top {
+                    margin-left: 13px;
+                }
+                .choose {
+                    width: 100%;
+                    text-align: center;
+                    padding-top: 55px;
+                }
+        /* css sode end */ 
+    }
+    @media (min-width:481px) and (max-width:767px){
+    /* css sode start */
+    
+    /* css sode end */
+    }
+    @media (min-width:768px) and (max-width:1024px){
+    /* css sode start */
+    
+    /* css sode end */
+    }
